@@ -29,5 +29,4 @@ def getSunRise(response):
 def getSunSet(reponse):
     # modify this function based on the response
     sunset_time = dt.datetime.utcfromtimestamp(response['sys']['sunset'] + response['timezone'])
-
     
